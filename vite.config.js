@@ -1,7 +1,6 @@
-# Night Reels
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-1. `src/App.jsx` içindeki `YOUR_TMDB_API_KEY` kısmını kendi anahtarınla değiştir.
-2. `npm install`
-3. `npm run dev`
-
-Vercel'e yüklemek için bu klasörü GitHub'a atman yeterli.
+export default defineConfig({
+  plugins: [react()],
+})

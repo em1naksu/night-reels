@@ -1,19 +1,7 @@
-{
-  "name": "night-reels",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.10"
-  }
-}
+# Night Reels
+
+1. `src/App.jsx` içindeki `YOUR_TMDB_API_KEY` kısmını kendi anahtarınla değiştir.
+2. `npm install`
+3. `npm run dev`
+
+Vercel'e yüklemek için bu klasörü GitHub'a atman yeterli.
